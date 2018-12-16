@@ -1,0 +1,34 @@
+/*
+ Theme Name: tema-hijo
+ Theme URI: silocreativo.com
+ Description: Tema hijo para nuestro tema padre
+ Author: Miriam
+ Template: twentyseventeen
+ Version: 1.0.0
+ Tags: light,
+ Text Domain:  tema-hijo
+*/
+
+@import url("../twentyseventeen/style.css");
+
+body.has-header-image .site-title a{
+ color:#00ffff;
+}
+
+body.has-header-image .site-description{
+ color:#000000;
+ font-family:Serif;
+}
+
+.content-area h1{
+ text-align: center;
+ text-decoration: underline;
+}
+
+p{
+text-align:justify;
+}
+
+.site-footer{
+ background-color:#b3ccff;
+}
